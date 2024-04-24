@@ -1,0 +1,58 @@
+{
+  "name": "angular-boilerplate",
+  "bucket": "angular-boilerplate",
+  "preset": "angular",
+  "mode": "deliver",
+  "env": "production",
+  "prefix": "20240424165927",
+  "not-first-run": true,
+  "function": {
+    "id": 20757,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "./azion/args.json",
+    "instance-id": 20392,
+    "instance-name": "__DEFAULT__"
+  },
+  "application": {
+    "id": 1713979253,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1713977993,
+    "name": "__DEFAULT__"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 127165,
+      "origin-key": "f8f2d20f-3ff3-4770-8250-e73a95ea6124",
+      "name": "angular-boilerplate_single"
+    },
+    {
+      "origin-id": 127166,
+      "origin-key": "d65fbfd7-a406-4cdf-82d6-4cef72019c16",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 238409,
+        "name": "Main_Rule"
+      },
+      {
+        "id": 238410,
+        "name": "Index_Rewrite_1"
+      },
+      {
+        "id": 238411,
+        "name": "Index_Rewrite_2"
+      }
+    ]
+  },
+  "cache-settings": null
+}
